@@ -1,0 +1,45 @@
+.header {
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    padding-top: 4rem;
+    text-align: center;
+    padding-bottom: 2rem;
+    margin-bottom: 4rem;
+}
+
+#txt-input {
+    width: 60vw;
+    text-align: center;
+    padding-top: 4rem;
+    display: block;
+    margin-bottom: 3rem;
+    width: 60vw;
+    margin-left: 15rem;
+}
+
+#button {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    margin-left: 15rem;
+}
+
+.text {
+    font-size: 1.3rem;
+    margin-left: 15rem;
+}
+
+#output {
+    margin-left: 15rem;
+    padding-right: 1rem;
+}
+
+.footer {
+    background-color: #F2C94C;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    padding-top: 3rem;
+    text-align: center;
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+    margin-top: 4rem;
+}
