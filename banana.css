@@ -1,44 +1,63 @@
+body{
+    display:flex;
+    justify-content: center;
+    background-color: rgb(245, 242, 238);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    box-shadow: 1px 2px 3px;
+    padding: 2rem;
+    padding-top: 0;
+    background-color: white;
+}
 .header {
     border-bottom-left-radius: 2rem;
     border-bottom-right-radius: 2rem;
-    padding-top: 4rem;
+    padding-top: 1rem;
     text-align: center;
     padding-bottom: 2rem;
     margin-bottom: 4rem;
 }
 
 #txt-input {
-    width: 60vw;
+    width: 80%;
     text-align: center;
     padding-top: 4rem;
-    display: block;
     margin-bottom: 3rem;
-    width: 60vw;
-    margin-left: 15rem;
+    display: flex;
+    justify-content: center;
 }
 
 #button {
     font-size: 1.2rem;
     margin-bottom: 1rem;
-    margin-left: 15rem;
+    display: flex;
+    justify-content: center;
+    margin-left: 41%;
+    width: 20%;
 }
 
 .text {
     font-size: 1.3rem;
-    margin-left: 15rem;
+    margin-left: 18rem;
 }
 
 #output {
-    margin-left: 15rem;
+   margin-left: 3rem;
+   width: 80%;
 }
 
 .footer {
     background-color: #F2C94C;
     border-top-left-radius: 2rem;
     border-top-right-radius: 2rem;
-    padding-top: 3rem;
+    padding-top: 2rem;
     text-align: center;
     padding-bottom: 4rem;
-    padding-top: 4rem;
+    padding-top: 2rem;
     margin-top: 4rem;
 }
