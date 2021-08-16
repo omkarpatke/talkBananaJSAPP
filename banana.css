@@ -8,7 +8,7 @@ body{
     justify-content: center;
     justify-content: center;
     flex-direction: column;
-    width: 50%;
+    width: 35%;
     box-shadow: 1px 2px 3px;
     padding: 2rem;
     padding-top: 0;
@@ -43,11 +43,11 @@ body{
 
 .text {
     font-size: 1.3rem;
-    margin-left: 18rem;
+    margin-left: 10rem;
 }
 
 #output {
-   margin-left: 3rem;
+   margin-left: 1rem;
    width: 80%;
 }
 
