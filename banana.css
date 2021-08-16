@@ -27,10 +27,10 @@ body{
     width: 80%;
     text-align: center;
     padding-top: 4rem;
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
     display: flex;
     justify-content: center;
-    margin-left: 2rem;
+    
 }
 
 #button {
@@ -48,8 +48,8 @@ body{
 }
 
 #output {
-   margin-left: 1rem;
-   width: 80%;
+   
+   width: 70%;
 }
 
 .footer {
