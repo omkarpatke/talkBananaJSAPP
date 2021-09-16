@@ -7,44 +7,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>talk banana</title>
     <link rel="stylesheet" href="banana.css">
-    <style>
-        textarea {
-            padding: 1rem;
-            height: 10vh;
-            width: 80%;
-            margin-top: 0%;
-            margin-left: 2.5rem;
-        }
-        
-        #output {
-            margin: 1rem;
-            margin-left: 2.5rem;
-            width: 70%;
-            height: 10vh;
-            padding: 2rem;
-            border: solid black;
-        }
-        
-        .header {
-            text-align: center;
-            background-color: #F2C94C;
-            font-size: 3rem;
-            padding: 1%;
-        }
-    </style>
+    
 
 </head>
 
 <body>
     <div class="container">
     <h1 class="header">talk banana</h1>
+    <img src="headerimg.png" alt="">
+    <h2>Minion Banana Translator</h2>
     <textarea id="txt-input" placeholder="put your sentence in simple english then i will give you it into banana"></textarea>
 
     <button id="button" class="btn">translate</button>
     <div class="text">output will come here 👇
     </div>
     <div id="output"></div>
-    <footer class="footer"></footer>
+    <footer class="footer">
+        <h2 class="footer-text">about banana</h2>
+        <p>This language is spoken by minions in Despicable me.</p>
+    </footer>
 </div>
     <script src="app.js" type="text/javascript"></script>
 </body>
