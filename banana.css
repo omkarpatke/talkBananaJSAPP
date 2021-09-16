@@ -73,3 +73,29 @@ footer{
 p{
     font-size: 1.1rem;
 }
+
+@media (max-width:1000px){
+    body{
+        padding: 1rem;
+        
+    }
+    .container{
+        width: 100%;
+    }
+    h2{
+        /* margin-left: 4rem; */
+        text-align: center;
+    }
+    textarea , #output{
+        width: 80%;
+    }
+    button{
+        width: 50%;
+    }
+    p{
+        text-align: center;
+    }
+    .footer-text{
+        text-align: center;
+    }
+}
