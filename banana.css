@@ -76,8 +76,9 @@ p{
 
 @media (max-width:1000px){
     body{
-        padding: 1rem;
-        
+        /* padding: 1rem; */
+        margin: 0;
+        padding: 0;
     }
     .container{
         width: 100%;
