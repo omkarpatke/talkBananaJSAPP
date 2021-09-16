@@ -11,7 +11,6 @@ body{
     flex-direction: column;
     width: 40%;
     box-shadow: 0 1px 25px #e5e7eb;
-    
     padding-top: 0;
     background-color: white;
 }
@@ -33,6 +32,7 @@ img{
 h2{
     color: #F2C94C;
     margin-bottom: -1rem;
+    font-size: 1.8rem;
 }
 textarea , #output{
     height: 18vh;
@@ -42,6 +42,7 @@ textarea , #output{
     border-radius: 20px;
     padding-left: 1.5rem;
     padding-top: 2rem;
+    font-size: 1.1rem;
     
 }
 button{
@@ -54,6 +55,9 @@ button{
     font-size: 1.2rem;
     border: none;
 }
+.text{
+    font-size: 1.2rem;
+}
 footer{
     background-color: #F2C94C;
     width: 100%;
@@ -65,4 +69,7 @@ footer{
 .footer-text{
     color: black;
     font-size: 2rem;
+}
+p{
+    font-size: 1.1rem;
 }
