@@ -55,6 +55,11 @@ button{
     font-size: 1.2rem;
     border: none;
 }
+button:hover{
+    border: #F2C94C 2px solid;
+    background-color: white;
+    color: #F2C94C;
+}
 .text{
     font-size: 1.2rem;
 }
